@@ -1,0 +1,152 @@
+:root{
+    --almost-white: #F4EEDC;
+    --beige: #9F8776;
+    --brown: #512F30;
+    --grey: #BBAEAD;
+    --sand: #D88E59;
+    --ground: #342712;
+    --sky: #66BFBF;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--sky);
+    color: var(--brown);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+hr{
+    color: var(--grey);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 20%;
+    margin: 50px auto;
+}
+
+.bottom-container{
+    width: 100%;
+    margin: auto;
+}
+
+.btn {
+    align-self: center;
+    justify-self: center;
+    background: var(--sand);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    color: var(--almost-white);
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: var(--beige);
+    text-decoration: none;
+}
+
+.footer-img{
+    position: absolute;
+    left: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.footer-link{
+    color: var(--almost-white);
+}
+
+.footer-link:hover{
+    background-color: var(--grey);
+}
+
+.links{
+    background-color: var(--ground);
+    color: var(--almost-white);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.middle-container{
+    margin: auto;
+    width: 50%;
+}
+
+.name{
+    color: var(--brown);
+    font-family: 'Italianno', cursive;
+    left: 34.61%;
+    line-height: 0.75;
+    position: absolute;
+    top: 10%;
+}
+
+.proj-buttons{
+    align-self: center;
+    justify-self: center;
+}
+
+.proj-grid{
+    display: grid;
+    gap: 5%;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "proj1 proj2 proj3 proj4"
+        ". . . ."
+        "button1 button2 button3 button4";
+    text-align: justify;
+}
+
+.project-row{
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+.python-skill{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.signature{
+    margin: 0;
+}
+
+.scorpio{
+    position: absolute;
+    left: 0;
+}
+
+.skill-row{
+    margin: 100px auto;
+    text-align: left;
+}
+
+.top-container{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.turtle-project-img{
+    width: 100%;
+}
