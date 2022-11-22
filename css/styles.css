@@ -77,6 +77,12 @@ hr{
     background-color: var(--grey);
 }
 
+.left-skill{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
 .links{
     background-color: var(--ground);
     color: var(--almost-white);
@@ -121,10 +127,10 @@ hr{
     text-align: left;
 }
 
-.python-skill{
+.right-skill{
     width: 25%;
-    float: left;
-    margin-right: 30px;
+    float: right;
+    margin-left: 30px;
 }
 
 .signature{
@@ -147,6 +153,6 @@ hr{
     width: 100%;
 }
 
-.turtle-project-img{
+.project-img{
     width: 100%;
 }
